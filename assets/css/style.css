@@ -34,6 +34,16 @@ background-color: #fff; }
 
 }
 
+
+@font-face {
+    font-family: 'kittithada_roman_55_fregular';
+    src: url('../fonts/kittithadaroman55f-webfont.woff2') format('woff2'),
+         url('../fonts/kittithadaroman55f-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 .container,.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   font-family: 'kittithada';
 }
@@ -252,8 +262,11 @@ a.btn-black {
 
 .section-concept.pic-right .box.text .text-wrap p {
     font-size: 16px;
-    font-size: 1.8rem;
+    font-size: 2rem;
     text-align: left;
+    font-family: 'kittithada';
+    font-weight: 100;
+
 }
 
 
@@ -267,3 +280,5 @@ a.btn-black {
   }
 
 }
+
+.btn { border-radius: 0; }
