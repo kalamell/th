@@ -186,3 +186,70 @@ a.btn-black {
 #product .boxnews .boxtext {
   height: 115px;
 }
+
+/* other project */
+
+
+#ongoing {
+  margin-bottom: 100px;
+  padding-bottom: 100px;
+  padding-top: 80px;
+}
+
+
+
+.section-concept:first-child {
+    margin: 0;
+}
+.section-concept {
+    display: flex;
+    flex-flow: colunm wrap;
+    margin: 25px 0;
+}
+.section-concept .box {
+    flex: 1;
+    order: 2;
+    z-index: 0;
+}
+.section-concept.pic-right .box.text {
+    order: 1;
+}
+.section-concept .box.text {
+    align-self: center;
+    z-index: 1;
+}
+.section-concept.pic-right .box.text .text-wrap {
+    text-align: left;
+    margin-left: 0;
+    margin-right: -30px;
+}
+
+.section-concept .box .text-wrap {
+    background: #fff;
+    color: #000;
+    padding: 20px;
+    margin-left: -30px;
+}
+.section-concept .box .text-wrap h1 {
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.section-concept.pic-right .box.text .text-wrap p {
+    font-size: 16px;
+    font-size: 1.8rem;
+    text-align: left;
+}
+
+
+@media (max-width: 70em) {
+  .section-concept {
+    flex-flow: row wrap;
+  }
+
+  .section-concept .box {
+      flex: auto;
+  }
+
+}
