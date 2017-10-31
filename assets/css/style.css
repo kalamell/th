@@ -321,27 +321,31 @@ footer ul {
 }
 
 footer ul {
-  width: 10%;
+  width: 19%;
   margin-right: 10px;
 }
 
 footer ul:nth-child(1) {
-  width: 15%;
+
 }
+
 
 footer li.header {
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
 }
 
-footer ul li { font-size: 12px; padding: 4px 0px 4px 0px;}
+footer li.header:nth-child(2) {
+  margin-top: 10px;
+}
+
+footer ul li { font-size: 14px; padding: 4px 0px 4px 0px;}
 footer ul li a {
   color: #6d6d6d;
 }
 
-footer ul li a:hover {
-  color: #333;
-  text-decoration: none;
+footer li.header.sec2 {
+  margin-top: 20px;
 }
 
 footer label {
@@ -360,7 +364,7 @@ footer li div.box div.bd {
     float: right;
     display: inline-block;
     width: 93%;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 a.btn-black-footer {
