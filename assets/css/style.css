@@ -363,8 +363,9 @@ footer li div.box {
 footer li div.box div.bd {
     float: right;
     display: inline-block;
-    width: 93%;
-    font-size: 14px;
+    width: 89%;
+    font-size: 16px;
+    vertical-align: top;
 }
 
 a.btn-black-footer {
