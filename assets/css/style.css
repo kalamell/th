@@ -47,6 +47,12 @@ background-color: #fff; }
 .container,.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   font-family: 'kittithada';
 }
+
+.container-fluid
+{
+  padding-left: 0px;
+  padding-right: 0px;
+}
 .carousel-item {
   height: 100vh;
   min-height: 300px;
@@ -89,6 +95,13 @@ background-color: #fff; }
     }
     .navbar-brand { display: block; }
 
+}
+
+a.img-logo {
+  float: none;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
 }
 
 .navbar-collapse {
@@ -152,6 +165,24 @@ section h2.page-title {
     letter-spacing: 4px;
 
 }
+
+
+section h3.page-title {
+    display: inline-block;
+    font-size: 45px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 55px;
+    float: left;
+    font-weight: 900;
+    width: 100%;
+    font-family: 'kittithada_thin_35regular';
+    letter-spacing: 4px;
+
+
+}
+
 
 .boxnews {
   margin-bottom: 50px;
@@ -346,6 +377,11 @@ footer ul li a {
 
 footer li.header.sec2 {
   margin-top: 20px;
+}
+
+
+footer li.header a {
+  color: #000;
 }
 
 footer label {
