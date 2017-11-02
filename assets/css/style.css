@@ -504,12 +504,58 @@ a.btn-black-footer {
   display: block;
 }
 
-img.icon-search {
+.bghover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background:rgba(0,0,0,0.8);
   display: none;
+}
+
+img.icon-search {
   position: absolute;
   top: 40%;
   left: 40%;
 }
-.popup:hover img.icon-search {
+
+
+.popup:hover .bghover {
   display: block;
 }
+
+ul.detail-project ul{
+  margin:0px;
+  padding:0px;
+  list-style: none;
+}
+
+
+ul.detail-project ul li {
+  margin-bottom: 10px;
+}
+
+ul.detail-project ul li {
+    width: 50%;
+    display: inline-block;
+    float: left;
+    font-size: 24px;
+    font-family: 'kittithada55';
+    font-weight: 900;
+}
+
+ul.detail-project ul li:nth-child(1) {
+  width: 30%;
+}
+
+ul.detail-project ul li:nth-child(2) {
+  width: 70%;
+}
+
+/*
+
+.popup:hover {
+  background:rgba(0,0,0,0.5);
+}
+
+*/
