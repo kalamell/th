@@ -121,7 +121,7 @@ a.img-logo {
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
     background-color: transparent;
-    border-top: 2px solid #0072bc;
+    border-top: 3px solid #0072bc;
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form { margin-top: 20px; }
@@ -170,12 +170,12 @@ h1.page-title {
 
 section h2.page-title {
     font-size: 60px;
-    border-top: 2px solid #0072bc;
+    border-top: 3px solid #0072bc;
     padding-top: 10px;
     margin-bottom: 55px;
     float: left;
     font-weight: thin;
-    font-family: 'kittithada_thin_35regular';
+    font-family: 'kittithada55';
     letter-spacing: 4px;
 
 }
@@ -213,6 +213,7 @@ section h3.page-title {
 }
 p.boxtext {
   height: 155px;
+  font-family: 'kittithada55';
 }
 
 .boxbody p a {
@@ -371,12 +372,12 @@ footer ul {
 }
 
 footer ul {
-  width: 19%;
-  margin-right: 10px;
+  width: 17.5%;
+  /* margin-right: 17px; */
 }
 
 footer ul:nth-child(1) {
-
+  margin-right: 120px;
 }
 
 
@@ -428,4 +429,87 @@ a.btn-black-footer {
   color: #fff;
   font-size: 11px;
   padding: 2px;
+}
+
+
+.box-product {
+  position: absolute;
+  top: 20%;
+  left: 15%
+}
+.box-product {
+    background: #f3f3f3;
+    color: #000;
+    padding: 20px;
+    margin-left: -30px;
+    width: 450px;
+
+}
+
+
+.box-product h1 {
+   font-size: 60px;
+    border-top: 3px solid #0072bc;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+    font-weight: thin;
+    font-family: 'kittithada55';
+    letter-spacing: 4px;
+    clear: both;
+
+}
+
+.box-product p{
+   float: left;
+   font-size: 24px;
+   font-weight: bold;
+    float: left;
+    font-family: 'kittithada55';
+    clear: both;
+}
+
+
+.bg-product {
+  background-color: #000;
+  background-image: url('../images/bg-product.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+.section-product {
+  padding: 50px 0px 50px 0px;
+}
+
+.section-product h2 {
+    font-size: 60px;
+    border-top: 3px solid #0072bc;
+    padding-top: 10px;
+    margin-bottom: 55px;
+    float: left;
+    color: #fff;
+    font-family: 'kittithada55';
+    clear: right;
+
+}
+
+.section-product p {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'kittithada55';
+}
+
+.popup {
+  position:relative;
+  display: block;
+}
+
+img.icon-search {
+  display: none;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+.popup:hover img.icon-search {
+  display: block;
 }
