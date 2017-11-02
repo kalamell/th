@@ -26,7 +26,7 @@
 
 
 
-    <nav class="navbar navbar-default" id="navbar-main">
+    <nav class="navbar yamm navbar-default" id="navbar-main">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -48,7 +48,22 @@
             <li class=""><a href="index.html#product">PRODUCT & SERVICE</a></li>
             <li class=""><a href="">OTHER PRODUCT</a></li>
             <li class=""><a href="index.html#ongoing">PROJECT ONGOING</a></li>
-            <li class="active"><a href="project-reference.html">PROJECT REFERENCE</a></li>
+            <li class="active dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle" aria-expanded="true">PROJECT REFERENCE</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <div class="yamm-content">
+                    <div class="row">
+                      <div class="col-xs-6 col-sm-2"><a href="#" class="thumbnail"><img alt="150x190" src="demo/img/190.jpg"></a></div>
+                      <div class="col-xs-6 col-sm-2"><a href="#" class="thumbnail"><img alt="150x190" src="demo/img/190.jpg"></a></div>
+                      <div class="col-xs-6 col-sm-2"><a href="#" class="thumbnail"><img alt="150x190" src="demo/img/190.jpg"></a></div>
+                      <div class="col-xs-6 col-sm-2"><a href="#" class="thumbnail"><img alt="150x190" src="demo/img/190.jpg"></a></div>
+                      <div class="col-xs-6 col-sm-2"><a href="#" class="thumbnail"><img alt="150x190" src="demo/img/190.jpg"></a></div>
+                      <div class="col-xs-6 col-sm-2"><a href="#" class="thumbnail"><img alt="150x190" src="demo/img/190.jpg"></a></div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </li>
             <li class=""><a href="knowledge.html">KNOWLEDGE</a></li>
             <li class=""><a href="about-us.html">ABOUT US</a></li>
             <li class=""><a href="contact-us.html">CONTACT US</a></li>
@@ -108,9 +123,9 @@
                         <section id="news">
                           <div class="row" style="margin-bottom: 80px; ">
                             <h2 class='page-title' style="">MAHANAKORN</h2>
-  
+
                             <div class='clearfix'></div>
-                            
+
                             <div class="col-lg-5">
                               <ul class='nav detail-project'>
                                 <li>
@@ -192,7 +207,7 @@
 
                               </ul>
 
-                              
+
                             </div>
 
                             <div class="col-lg-offset-2 col-lg-5">
@@ -210,7 +225,7 @@
                                 <div class='bghover'>
                                   <img src="assets/images/search.png" class='icon-search'>
                                 </div>
-                              </a>                                
+                              </a>
                             </div>
 
                             <div class="col-lg-6" style="margin-bottom: 10px;">
@@ -219,7 +234,7 @@
                                 <div class='bghover'>
                                   <img src="assets/images/search.png" class='icon-search'>
                                 </div>
-                              </a>                                
+                              </a>
                             </div>
 
 
@@ -229,7 +244,7 @@
                                 <div class='bghover'>
                                   <img src="assets/images/search.png" class='icon-search'>
                                 </div>
-                              </a>                                
+                              </a>
                             </div>
 
                           </div>
@@ -364,7 +379,7 @@
                 <a href="project-reference.html">MORE</a>
               </li>
 
-              
+
             </ul>
 
             <ul>
@@ -401,8 +416,19 @@
     <script src="assets/js/jquery-2.2.3.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
 
+    <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?lang=css"></script>
+
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js"></script>
+
+      <script>
+        $(function() {
+          window.prettyPrint && prettyPrint()
+          $(document).on('click', '.yamm .dropdown-menu', function(e) {
+            e.stopPropagation()
+          })
+        })
+      </script>
 
 
     <script>

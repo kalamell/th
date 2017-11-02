@@ -102,6 +102,7 @@ a.img-logo {
   display: inline-block;
   text-align: center;
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .navbar-collapse {
@@ -559,3 +560,33 @@ ul.detail-project ul li:nth-child(2) {
 }
 
 */
+
+
+/*dropdown menu mega*/
+/*!
+ * Yamm!3 - Yet another megamenu for Bootstrap 3
+ * http://geedmo.github.com/yamm3
+ *
+ * @geedmo - Licensed under the MIT license
+ */
+.yamm .nav,
+.yamm .collapse,
+.yamm .dropup,
+.yamm .dropdown {
+  position: static;
+  /* margin-top: 10px; */
+}
+.yamm .container {
+  position: relative;
+}
+.yamm .dropdown-menu {
+  left: auto;
+}
+.yamm .yamm-content {
+  padding: 20px 30px;
+}
+.yamm .dropdown.yamm-fw .dropdown-menu {
+  left: 0;
+  right: 0;
+  border: 0px;
+}
