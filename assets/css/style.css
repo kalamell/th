@@ -473,7 +473,7 @@ a.btn-black-footer {
 .bg-product {
   background-color: #000;
   background-image: url('../images/bg-product.jpg');
-  background-size: cover;
+  background-size: contain;
   background-position: center center;
 }
 
