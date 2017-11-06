@@ -608,5 +608,7 @@ ul.detail-project ul li:nth-child(2) {
 .box-aboutus p {
   font-size: 28px;
   font-family: 'kittithada55';
+  margin-bottom: 5px;
+  line-height: 1;
   letter-spacing: 0px;
 }
